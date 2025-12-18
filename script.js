@@ -44,3 +44,17 @@ let navLinks = document.querySelectorAll(".menu li a");
 navLinks.forEach((link) => {
   link.addEventListener("click", hideNavMenu);
 });
+document.querySelectorAll(".button button").forEach(btn => {
+  if (btn.innerText.includes("Download")) {
+    btn.addEventListener("click", () => {
+      window.open("Resume.pdf", "_blank");
+    });
+  }
+});
+document.querySelectorAll(".button button").forEach(btn => {
+  if (btn.innerText.includes("Chat")) {
+    btn.addEventListener("click", () => {
+      window.location.href = "mailto:shamita1610@gmail.com";
+    });
+  }
+});
