@@ -47,7 +47,7 @@ navLinks.forEach((link) => {
 document.querySelectorAll(".button button").forEach(btn => {
   if (btn.innerText.includes("Download")) {
     btn.addEventListener("click", () => {
-      window.open("Resume.pdf", "_blank");
+      window.open("Shamita_Gupta_Full_Stack_Developer_Resume(1).pdf", "_blank");
     });
   }
 });
